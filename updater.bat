@@ -8,4 +8,3 @@ git add updater.bat
 git commit
 git push
 ::0 
-::1  
