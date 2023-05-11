@@ -1,0 +1,1 @@
+Simply adds a line to the end of the file indicating the number of times the script has been executed, then commits and pushes
