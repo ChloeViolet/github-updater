@@ -5,7 +5,7 @@ FOR /F %%x in (updater.bat) DO set /A count += 1
 set /A count -= 8 
 echo ::%count% >> updater.bat 
 git add updater.bat
-git commit
+git commit -m "%date%"
 git push
 ::0 
 ::1  
@@ -17,3 +17,5 @@ git push
 ::7  
 ::8  
 ::9  
+::10  
+::11  
